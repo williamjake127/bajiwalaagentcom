@@ -181,7 +181,6 @@ export default function SeoGuideSection() {
               <li>{siteName} Live 365 information</li>
               <li>Account information checklist</li>
               <li>{siteName} contact-check guide</li>
-              <li>{siteName} Live 123 information</li>
             </ul>
           </div>
         </div>
