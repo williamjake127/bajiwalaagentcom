@@ -1,6 +1,6 @@
-# 9xbet 9wicket 9xbet9 Official Agent List - Full-Stack Dynamic Web App
+# Bajiwala Baji365 Official Agent List - Full-Stack Dynamic Web App
 
-Official and verified 9xbet 9wicket 9xbet9 Master, Super, Admin & Sub Admin agent directory web application built with **Next.js**, **MongoDB**, and **Firebase Authentication**, optimized for deployment on **Vercel**.
+Official and verified Bajiwala Baji365 Master, Super, Admin & Sub Admin agent directory web application built with **Next.js**, **MongoDB**, and **Firebase Authentication**, optimized for deployment on **Vercel**.
 
 ---
 

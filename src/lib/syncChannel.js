@@ -1,7 +1,7 @@
 // Real-time cross-tab and in-memory synchronization channel for instant data updates
 
-const AGENTS_CACHE_KEY = 'velki_agents_cache_v4';
-const SETTINGS_CACHE_KEY = 'velki_site_settings_cache_v4';
+const AGENTS_CACHE_KEY = 'velki_agents_cache_v5';
+const SETTINGS_CACHE_KEY = 'velki_site_settings_cache_v5';
 const CHANNEL_NAME = 'velki_realtime_sync_channel';
 
 let channel = null;

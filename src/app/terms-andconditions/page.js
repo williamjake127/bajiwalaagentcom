@@ -2,8 +2,8 @@ import React from 'react';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Terms & Conditions | 9xbet 9wicket 9xbet9 Official Agent List',
-  description: 'Terms and conditions for utilizing the 9xbet 9wicket 9xbet9 agent directory and verification tool.'
+  title: 'Terms & Conditions | Bajiwala Baji365 Official Agent List',
+  description: 'Terms and conditions for utilizing the Bajiwala Baji365 agent directory and verification tool.'
 };
 
 export default function TermsPage() {

@@ -1,4 +1,4 @@
-export const DEFAULT_BRAND_NAME = '9xbet 9wicket 9xbet9';
+export const DEFAULT_BRAND_NAME = 'Bajiwala Baji365';
 
 export const defaultSettings = {
   site_name: DEFAULT_BRAND_NAME,
@@ -13,6 +13,7 @@ export function sanitizeBrandText(text, targetBrand = DEFAULT_BRAND_NAME) {
   if (!text || typeof text !== 'string') return text;
   const brand = targetBrand || DEFAULT_BRAND_NAME;
   return text
+    .replace(/9xbet\s*9wicket\s*9xbet9/gi, brand)
     .replace(/chorki\s*365/gi, brand)
     .replace(/chorki/gi, brand)
     .replace(/চরকি\s*(৩৬৫|365)/g, brand)
@@ -29,10 +30,10 @@ export function normalizeSiteName(name) {
     return DEFAULT_BRAND_NAME;
   }
   const trimmed = name.trim();
-  if (/^(chorki\s*365|chorki|velki|bhelki|চরকি\s*৩৬৫|চরকি\s*365|চরকি|ভেলকি)$/i.test(trimmed)) {
+  if (/^(9xbet\s*9wicket\s*9xbet9|chorki\s*365|chorki|velki|bhelki|চরকি\s*৩৬৫|চরকি\s*365|চরকি|ভেলকি)$/i.test(trimmed)) {
     return DEFAULT_BRAND_NAME;
   }
-  if (/chorki|চরকি|velki|ভেলকি|bhelki/i.test(trimmed)) {
+  if (/9xbet\s*9wicket\s*9xbet9|chorki|চরকি|velki|ভেলকি|bhelki/i.test(trimmed)) {
     return sanitizeBrandText(trimmed, DEFAULT_BRAND_NAME);
   }
   return trimmed;

@@ -4,7 +4,7 @@ import React, { createContext, useContext, useState, useEffect } from 'react';
 import { defaultSettings, DEFAULT_BRAND_NAME, normalizeSiteName, sanitizeBrandText } from '@/lib/seedData';
 import { broadcastSync, subscribeSync } from '@/lib/syncChannel';
 
-const SETTINGS_STORAGE_KEY = 'velki_site_settings_cache_v4';
+const SETTINGS_STORAGE_KEY = 'velki_site_settings_cache_v5';
 
 const SettingsContext = createContext({
   settings: defaultSettings,
@@ -121,7 +121,7 @@ export function SettingsProvider({ children, initialSettings }) {
       const baseTitle = `${siteName} Agent List 2026 | Official Master & Super Agent BD`;
       if (
         !document.title ||
-        /chorki|velki/i.test(document.title) ||
+        /9xbet|chorki|velki/i.test(document.title) ||
         document.title.includes(siteName)
       ) {
         document.title = baseTitle;

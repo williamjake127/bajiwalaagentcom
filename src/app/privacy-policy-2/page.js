@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Privacy Policy | 9xbet 9wicket 9xbet9 Official Agent List',
+  title: 'Privacy Policy | Bajiwala Baji365 Official Agent List',
   description: 'Our privacy policy explains how user data and agent records are safeguarded.'
 };
 

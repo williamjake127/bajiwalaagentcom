@@ -6,25 +6,25 @@ import { useSettings } from '@/context/SettingsContext';
 const FAQ_DATA = [
   {
     id: 1,
-    question: 'What is 9xbet 9wicket 9xbet9 Agent List?',
+    question: 'What is Bajiwala Baji365 Agent List?',
     answer:
-      '9xbet 9wicket 9xbet9 Agent List is an online platform where users can find useful information about 9xbet 9wicket 9xbet9 agents, login details, and related services in one place.'
+      'Bajiwala Baji365 Agent List is an online platform where users can find useful information about Bajiwala Baji365 agents, login details, and related services in one place.'
   },
   {
     id: 2,
-    question: 'How can I find a 9xbet 9wicket 9xbet9 Agent?',
+    question: 'How can I find a Bajiwala Baji365 Agent?',
     answer:
       'You can browse the agent list on our website and find the available agent information you are looking for.'
   },
   {
     id: 3,
-    question: 'How do I contact a 9xbet 9wicket 9xbet9 Agent?',
+    question: 'How do I contact a Bajiwala Baji365 Agent?',
     answer:
       'Agent information available on the website may include relevant contact or service details. Please verify the information before contacting an agent.'
   },
   {
     id: 4,
-    question: 'How can I access 9xbet 9wicket 9xbet9 Agent Login?',
+    question: 'How can I access Bajiwala Baji365 Agent Login?',
     answer:
       'Go to the relevant login section of the website and follow the provided instructions to access your account.'
   },

@@ -32,7 +32,7 @@ export default function AdminPanel() {
   const [loading, setLoading] = useState(false);
 
   // Settings form states
-  const [siteNameInput, setSiteNameInput] = useState('9xbet 9wicket 9xbet9');
+  const [siteNameInput, setSiteNameInput] = useState('Bajiwala Baji365');
   const [siteLogoInput, setSiteLogoInput] = useState('/wp-content/uploads/2026/07/logo.png');
   const [siteIconInput, setSiteIconInput] = useState('/wp-content/uploads/2026/07/ChatGPT-Image-Jul-27-2026-06_49_47-PM.webp');
   const [complainNumber, setComplainNumber] = useState('27635215141');
@@ -317,7 +317,7 @@ export default function AdminPanel() {
       // Helpful fallback message
       if (err.code === 'auth/invalid-api-key' || err.code === 'auth/network-request-failed' || !process.env.NEXT_PUBLIC_FIREBASE_API_KEY) {
         setAuthError('Firebase credentials are not set yet. Logging in with Demo Admin mode.');
-        setUser({ email: email || 'admin@9xbet.com', uid: 'demo-admin-123' });
+        setUser({ email: email || 'admin@bajiwala.com', uid: 'demo-admin-123' });
         localStorage.setItem('admin_active_session', 'true');
         localStorage.setItem('admin_last_heartbeat', Date.now().toString());
         localStorage.removeItem('admin_tab_closed_at');
@@ -346,7 +346,7 @@ export default function AdminPanel() {
     setSettingsMessage('');
     try {
       const payload = {
-        site_name: siteNameInput.trim() || '9xbet 9wicket 9xbet9',
+        site_name: siteNameInput.trim() || 'Bajiwala Baji365',
         site_logo: siteLogoInput.trim() || '/wp-content/uploads/2026/07/logo.png',
         site_icon: siteIconInput.trim() || '/wp-content/uploads/2026/07/ChatGPT-Image-Jul-27-2026-06_49_47-PM.webp',
         complain_whatsapp: complainNumber.replace(/[^0-9]/g, '').trim()
@@ -608,7 +608,7 @@ export default function AdminPanel() {
               <label>Admin Email</label>
               <input
                 type="email"
-                placeholder="admin@9xbet.com"
+                placeholder="admin@bajiwala.com"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required
@@ -718,7 +718,7 @@ export default function AdminPanel() {
               <label>Website Name (Displayed everywhere on frontend)</label>
               <input
                 type="text"
-                placeholder="e.g. 9xbet 9wicket 9xbet9"
+                placeholder="e.g. Bajiwala Baji365"
                 value={siteNameInput}
                 onChange={(e) => setSiteNameInput(e.target.value)}
                 required
